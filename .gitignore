@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dataset directory (stored separately on Hugging Face)
+dataset/
+
+# Outputs (keep exported onnx)
+outputs/plots/
+outputs/eval_*/
+outputs/*.csv
+outputs/*.png
